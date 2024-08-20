@@ -1,0 +1,23 @@
+{
+  "name": "algo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "play": "echo  \"Playground running...\" && node --env-file=.env ./playground/src/index.js",
+    "qr": "echo  \"Playground QR...\" && node --env-file=.env ./qr/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "log-symbols": "^7.0.0"
+  }
+}
